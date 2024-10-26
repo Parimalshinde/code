@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="clock">hello saish</h1>
+    <script src="jquery-3.7.1.js"></script>
+    <script>
+      $(document).ready(function () {
+        var a = $("#clock").html();
+        console.log(a);
+
+        $("#clock").click(function () {
+          $("#clock").css("background-color", "blue");
+        });
+
+        $("#clock").dblclick(function () {
+          $("#clock").css("font-size", "800px");
+        });
+
+        $("#clock").contextmenu(function () {
+          $("#clock").css("rotate", "180deg");
+        });
+
+        $("#clock").mouseenter(function () {
+          $("#clock").css("border", "5px groove blue");
+        });
+
+        $("#clock").mouseleave(function () {
+          $("#clock").css("rotate", "270deg");
+        });
+
+        $("#clock").mouseup(function () {
+          $("#clock").css(
+            "background-image",
+            url(
+              "https://in.images.search.yahoo.com/images/view;_ylt=Awrx.zNUBhlnLxkApTC9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzIyYWI5ZDZhZGNiY2Y3NTA2MjkzM2I2MGQ1MmRhZDQxBGdwb3MDMgRpdANiaW5n?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dbrainvita%26type%3DE210IN714G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D2&w=1280&h=720&imgurl=i.ytimg.com%2Fvi%2FCzaWPBZuvhQ%2Fmaxresdefault.jpg&rurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DCzaWPBZuvhQ&size=149KB&p=brainvita&oid=22ab9d6adcbcf75062933b60d52dad41&fr2=piv-web&fr=mcafee&tt=How+to+play+brainvita+game+-+YouTube&b=0&ni=21&no=2&ts=&tab=organic&sigr=S6JYNH4tmrxg&sigb=JdVAVNe9PUyU&sigi=szB7IlfI.aXn&sigt=Ye1EiFX_WjWV&.crumb=Al6pYRZm7wy&fr=mcafee&fr2=piv-web&type=E210IN714G0"
+            )
+          );
+        });
+      });
+    </script>
+  </body>
+</html>

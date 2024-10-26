@@ -1,0 +1,94 @@
+body{
+    background-color:#022930;
+    color:#b6cbce;
+    font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#eef3db;
+    font-weight:100;
+}
+
+
+a{
+    text-decoration:none;
+    color:#b6cbce;
+    transition:all 0.4s ease;
+}
+
+a:hover{
+
+    color:#e0f780;
+
+}
+img{
+    width:100%;
+}
+
+.text-brand{
+    color:#4aeb1d;
+}
+.navbar{
+    background-color: #033f47;
+}
+
+.full-height{
+    min-height: 100vh;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media(min-width:992px) {
+    .navbar{
+        min-height:100vh;
+        width:240px;
+        background:linear-gradient(rgba(3, 63, 71, 0.8),rgba(3, 63, 71, 0.8)),url("laptop.avif");
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .navbar .navlink{
+        font-weight:700;
+        text-transform:uppercase;
+        color:white;
+    }
+    .navbar .navlink :hover{
+        color:#e0f780;
+    }
+}
+
+.btn{
+    padding:12px 28px;
+    font-weight: 700;
+    
+
+}
+.btn-brand{
+    background-color:#4ce335;
+    border-color: #e0f780;
+    color:#033f47;
+}
+.btn-brand:hover,.btn-brand:focus{
+    background-color:#b8dc29;
+    color:#033f47;
+
+}
+.link-custom{
+    font-weight:700;
+    position:relative;
+}
+.custom-link::after{
+    content:"";
+position:absolute;
+width:0%;
+height:2px;
+background-color: #e0f780;
+left:0;
+top:110%;
+transition: all 0.4s;
+}
+
+.link-custom:hover::after{
+    width:100%;
+}

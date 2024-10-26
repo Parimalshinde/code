@@ -1,0 +1,146 @@
+<html>
+  <head>
+    <title>FORM</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form action="E:\Java Full Stack\form.html" target="_blank">
+      <h1 style="text-align: center">RECRUITMENT INFORMATION</h1>
+      <label class="lb" for="fname">First Name</label>
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="Parimal"
+        readonly
+      />
+      <label class="lb" for="lname">Last Name</label>
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        placeholder="Shinde"
+        readonly
+      /><br />
+      <label class="lb" for="mail">enter your mail</label><br />
+      <input type="email" id="mail" name="mail" /><br />
+      <label class="lb" for="phone">Mobile No</label><br />
+      <input type="number" id="phone" name="phone" /><br />
+      <label class="lb" for="quantity">enter age:</label><br />
+      <input
+        type="number"
+        id="quantity"
+        name="quantity"
+        min="22"
+        max="28"
+        step="1"
+      /><br />
+      <label class="lb" for="birth">enter your birthdate</label><br />
+      <input type="date" id="birth" name="birth" /><br />
+      <p class="lb">GENDER</p>
+      <ul>
+        <li>
+          <input type="radio" id="gender" name="gender" value="male" />
+          <label class="lb" for="gender" style="text-align: left">male </label>
+        </li>
+
+        <li>
+          <input type="radio" id="gender" name="gender" value="female" />
+          <label class="lb" for="gender" style="text-align: left"
+            >female
+          </label>
+        </li>
+      </ul>
+      <label class="lb" for="address">enter your address</label><br />
+      <textarea id="address" name="address"></textarea><br />
+
+      <fieldset style="width: fit-content">
+        <legend class="lb">Favourite Sport</legend>
+        <label class="lb" for="dropdown">choose your option</label>
+        <select id="dropdown" name="dropdown">
+          <option value="cricket">cricket</option>
+          <option value="football">football</option>
+          <option value="badminton">badminton</option>
+          <option value="hockey">hockey</option>
+        </select>
+      </fieldset>
+      <br /><br />
+
+      <label class="lb" for="socialmedia">which platform you use </label>
+      <input list="socialmedia" id="socialmedia" name="socialmedia" />
+      <datalist id="socialmedia">
+        <option value="geeks for geeks"></option>
+        <option value="javatpoint"></option>
+        <option value="leetcode"></option>
+        <option value="hacker_rank"></option></datalist
+
+      ><br /><br />
+
+      <label class="lb" for="pin">enter your password</label><br />
+      <input type="password" id="pin" name="pin" /><br />
+      <input type="submit" value="submit" />
+      <input type="reset" value="reset" /><br />
+
+      <p class="lb">platform you use often</p>
+
+      <ul>
+        <li>
+          <input
+            type="radio"
+            id="socialmedia"
+            name="socialmedia"
+            value="youtube"
+          />
+          <label class="lb" for="youtube"
+            ><a class="lb" href="https://www.youtube.com/" :>youtube</a></label
+          >
+        </li>
+        <li>
+          <input
+            type="radio"
+            id="socialmedia"
+            name="socialmedia"
+            value="gmail"
+          />
+          <label class="lb" for="leetcode">
+            <a class="lb" href="https://mail.google.com/mail/u/0/#inbox"
+              >gmail</a
+            ></label
+          >
+        </li>
+        <li>
+          <input
+            type="radio"
+            id="socialmedia"
+            name="socialmedia"
+            value="whatsapp"
+          />
+          <label class="lb" for="socialmedia"
+            ><a class="lb" href="https://web.whatsapp.com/">whatsapp</a></label
+          >
+        </li>
+
+        <li>
+          <input type="radio" id="google" name="socialmedia" value="google" />
+          <label class="lb">
+            <a class="lb" href="https://www.google.com/"> google</a></label
+          >
+        </li>
+      </ul>
+      <video width="800" height="800" controls>
+        <source src="video.mp4" type="video/mp4" />
+      </video>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/HGk_ypEuS24?si=0RLM83IYTppcYdTG"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      >
+      </iframe>
+    </form>
+  </body>
+</html>

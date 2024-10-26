@@ -1,0 +1,6 @@
+table,th,tr,td{
+    border-style: dashed;
+    border-color: aliceblue;
+    border-bottom-right-radius: 0cqmax;
+    border-collapse: collapse;
+}

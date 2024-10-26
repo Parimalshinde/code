@@ -1,0 +1,47 @@
+body{
+    background: color #022a30;;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+a{
+    text-decoration: none;
+    color:#b6cbce;
+}
+a:hover{
+    color:orange;
+
+}
+img{
+    width:"100%";
+}
+.navbar .navlink{
+
+    font-weight:700;
+    text-transform:uppercase;
+    color:white;
+}
+
+.navbar .nav-link:hover{
+   color:rgb(245, 245, 94);
+}
+    @media(min-width:992px){
+        .navbar{
+            min-height:100vh;
+            width:240px;
+            background:linear-gradient(rgba(3,63,71,0.9),rgba(3,63,71,0.9));
+            background-size:cover;
+           background-position:center;
+        }
+    }
+
+#content-wrapper{
+    padding-left: 992px;;
+}
+.black-text{
+    color:rgb(128, 249, 30);
+    font-size: xx-large;
+}
+    

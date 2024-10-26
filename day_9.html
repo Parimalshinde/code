@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>transition</title>
+    <style>
+      body {
+        background-image: url("black.jpg");
+        background-repeat: no-repeat;
+      }
+      div {
+        margin-left: 500px;
+        box-shadow: 20px 20px 30px 40px rgb(15, 218, 73);
+        width: 100px;
+        height: 100px;
+        position: relative;
+        animation-name: sachit;
+        animation-duration: 4s;
+        animation: iteration count 3px;
+        animation-direction: normal;
+      }
+
+      @keyframes sachit {
+        0% {
+          background-color: rgb(229, 255, 59);
+          left: 250px;
+          top: 0px;
+        }
+        25% {
+          background-color: aquamarine;
+          left: 500px;
+          right: 200px;
+        }
+        50% {
+          background-color: rgb(149, 11, 194);
+          left: 250px;
+          top: 400px;
+        }
+        75% {
+          background-color: rgb(253, 70, 70);
+          left: 0px;
+          top: 200px;
+        }
+        100% {
+          background-color: rgb(230, 56, 134);
+          left: 250px;
+          top: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>

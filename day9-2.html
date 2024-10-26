@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>tooltip</title>
+    <style>
+        .tooltip{
+            display:inline-block;
+            position:relative;
+        }
+
+        .tooltip .tooltip_text{
+            visibility:hidden;
+            width:120px;
+            background-color:greenyellow;
+            color:black;
+            text-align:center;
+            border-radius:12px;
+            padding; 15px;
+        }
+
+        .tooltip:hover .tooltip_text{
+            visibility:visible;
+        }
+      p,
+      div {
+        margin-left: 500px;
+        font-size: x-large;
+      }
+    </style>
+    <body style="text-align: center">
+      <h1>hello</h1>
+      <p>tooltip should be displayed below the div</p>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quam
+        et, nobis numquam minus id nihil deserunt. Voluptas sapiente,
+        necessitatibus molestias esse incidunt minus dolorem magni eveniet
+        placeat saepe laudantium magnam praesentium inventore, ea neque ullam?
+        Maxime odit tempore dolor temporibus quae asperiores, blanditiis, in eum
+        illum, tenetur ut repudiandae!
+      </div>
+      <div class="tooltip">
+        check-out-me
+        <span class="tooltip_text">hover over me</span>
+      </div>
+    </body>
+  </head>
+</html>

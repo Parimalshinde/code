@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>hello</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+
+    <script>
+      let number = prompt("enter value for a");
+
+      let x = myfunction(number);
+
+      document.getElementById("demo0").innerHTML = x;
+
+      function myfunction(number) {
+        if (number % 2 == 0) {
+          document.getElementById("demo").innerHTML = number + "is even";
+        } else {
+          document.getElementById("demo").innerHTML = number + "is odd";
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    background-image:url("01-2020-background-4-01_generated.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+h1{
+
+    
+
+    color : whitesmoke;
+    font: bold;
+    font-style: initial;
+}
+.lb{
+    color :aliceblue;
+    font-size: larger;
+    font-style: oblique;
+}
